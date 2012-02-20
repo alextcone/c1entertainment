@@ -44,9 +44,7 @@ ul.primary li a {background-color: #000000;}
 
 ul.primary li.active a {background-color: #cccccc;}
 
-ul#main-menu {display: block; margin-bottom: 0;}
-
-ul#main-menu a {background-color: #000000; display: block; padding: 10px;}
+ul#main-menu {display: block; margin-bottom: 20;}
 
 .films-list img {margin-bottom: 20px; max-width: 100%;}
 
@@ -79,6 +77,10 @@ ul#main-menu a {background-color: #000000; display: block; padding: 10px;}
 .views-row {border-bottom: 1px solid #cccccc; margin-bottom: 50px; padding-bottom: 1px;}
 
 .views-row-last {margin-bottom: 0;}
+
+#zone-branding-wrapper {background-color: #000000; padding-top: 20px;}
+
+#zone-menu-wrapper {background-color: #000000; margin-top: 0; padding-top: 20px;}
 
 /* region footer */
 
