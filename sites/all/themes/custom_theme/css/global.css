@@ -84,7 +84,9 @@ ul#main-menu {display: block; margin-bottom: 20;}
 
 /* region footer */
 
-#zone-footer-wrapper {background-color: #cfcfcf; border-top: 1px solid #bbbbbb; height: 155px; margin-top: 25px; padding-top: 20px;}
+img.social {margin-top: 12px; max-width: 26px;}
+
+img.social-first {position: relative; left: -2px;}
 
 ul.menu li {display: inline; margin: 0; padding: 0; margin: 0 10px;}
 
@@ -95,6 +97,8 @@ ul.menu li a:link, ul.menu li a:visited {color: #555555; font-size: 100%;}
 ul.menu li a:hover {text-decoration: underline;}
 
 ul li.leaf {list-style-image: none; list-style-type: none;}
+
+#zone-footer-wrapper {background-color: #cfcfcf; border-top: 1px solid #bbbbbb; height: 155px; margin-top: 25px; padding-top: 20px;}
 
 /* form overrides */
 
