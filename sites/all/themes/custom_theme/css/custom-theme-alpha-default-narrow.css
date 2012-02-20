@@ -6,15 +6,25 @@ ul.inline li {display: inline; padding: 0 0.5em;}
 
 ul.inline .first {padding-left: 0;}
 
-ul#main-menu {display: block; margin-top: 21px; margin-bottom: 20px;}
+ul#main-menu {display: block; margin-top: -25px; margin-bottom: 20px;}
 
 ul#main-menu a {background-color: transparent; display: inline; margin: 0; padding: 0;}
 
-.logo-img img {max-width: 175px;}
+.grid-6 .pane-block-2 {margin: 0;}
+
+.logo-img img {max-width: 175px; position: relative; top: -18px;}
+
+.pane-block-1 p {font-size: 250%;}
+
+.pane-block-3 img {margin-top: 35px; max-width: 100px;}
+
+.pane-block-3 p {padding-left: 20px; padding-right: 20px;}
 
 .views-field-title {font-size: 175%;}
 
-#zone-menu-wrapper {background-color: #000000; margin-top: 25px;}
+#zone-branding-wrapper {background-color: #000000;}
+
+#zone-menu-wrapper {background-color: #000000; margin-top: 0;}
 
 /* form overrides */
 

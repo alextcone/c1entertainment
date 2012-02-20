@@ -8,15 +8,25 @@ ul.inline .first {padding-left: 0;}
 
 ul.main-menu a:link {font-size: 150%;}
 
-ul#main-menu {display: block; margin-top: 21px; margin-bottom: 20px;}
+ul#main-menu {display: block; margin-top: -50px; margin-bottom: 20px;}
 
 ul#main-menu a {background-color: transparent; display: inline; margin: 0; padding: 0;}
 
-.logo-img img {max-width: 100%;}
+.grid-6 .pane-block-2 {margin: 0;}
+
+.logo-img img {max-width: 100%; position: relative; top: -30px;}
+
+.pane-block-1 p {font-size: 300%;}
+
+.pane-block-3 img {margin-top: 88px; max-width: 128px;}
+
+.pane-block-3 p {padding: 18px 60px;}
 
 .views-field-title {font-size: 175%;}
 
-#zone-menu-wrapper {background-color: #000000; margin-top: 25px;}
+#zone-branding-wrapper {background-color: #000000;}
+
+#zone-menu-wrapper {background-color: #000000; margin-top: 0;}
 
 /* form overrides */
 
