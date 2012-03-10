@@ -10,3 +10,9 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+ 
+ drupal_add_css('http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Open+Sans+Condensed:700', 'external');
+
+?>
+
+ 

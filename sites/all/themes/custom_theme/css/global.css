@@ -1,5 +1,7 @@
 /* This file will hold the main styles for your website. */
 
+html {font-size: 100%;}
+
 body {font-family: Helvetica,sans-serif; font-size: 100%;}
 
 .grid-6 {margin-left: 0; margin-right: 0;}
@@ -14,11 +16,11 @@ h1.site-name a, h2.site-name a {color: black; font-size: 100px;}
 
 end site name toggled off in theme settings */
 
-h1.title {font-family: "futura-pt-1","futura-pt-2",Helvetica,sans-serif; font-size: 235%;}
+h1.title {font-family: 'Open Sans Condensed',Helvetica,sans-serif; font-size: 235%;}
 
 h1.title a {font-size: 100%;}
 
-h2 {font-family: "futura-pt-1","futura-pt-2",Helvetica,sans-serif;}
+h2 {font-family: 'Open Sans Condensed',Helvetica,sans-serif;}
 
 a:link, a:visited {text-decoration: none;}
 
@@ -28,7 +30,9 @@ a.play:hover img {opacity: 1; filter:alpha(opacity=100); /* For IE8 and earlier 
 
 img#patrick {border: 10px solid #cccccc; float: right; margin: 0 0 15px 15px; max-width: 45%;}
 
-hr {border: 0; height: 1px; background: #333; background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.75)), color-stop(100%,hsla(0,0%,0%,0))); background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%); background: -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%); background: -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%); background: -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%); background: linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.75) 50%, hsla(0,0%,0%,0) 100%);}​
+hr {border-top: 1px solid #EEE; border-bottom: 1px solid white;}
+
+hr.soften {background: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent); background: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.1), transparent); background: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent); background: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent); border: 0; height: 1px; margin: 24px 0;}​
 
 ul.inline li {display: block; margin-right: 0 !important; padding: 0;}
 
@@ -44,7 +48,7 @@ ul.primary li a {background-color: #000000;}
 
 ul.primary li.active a {background-color: #cccccc;}
 
-ul#main-menu {display: block; margin-bottom: 20;}
+ul#main-menu {display: block; font-family: 'Open Sans Condensed',Helvetica,sans-serif; margin-bottom: 20;}
 
 .films-list img {margin-bottom: 20px; max-width: 100%;}
 
@@ -58,7 +62,7 @@ ul#main-menu {display: block; margin-bottom: 20;}
 
 .node-type-film p {margin: 25px 0;}
 
-.pane-block-1 p {display: block; font-family: "skippy-sharp-1","skippy-sharp-2",Georgia,serif; font-size: 200%; margin-top: 25px; text-align: center;}
+.pane-block-1 p {display: block; font-family: 'Sue Ellen Francisco',cursive; font-size: 200%; margin-top: 25px; text-align: center;}
 
 .pane-block-3 img {display: block; margin-left: auto; margin-right: auto; margin-top: 35px; max-width: 128px;}
 
@@ -82,7 +86,7 @@ ul#main-menu {display: block; margin-bottom: 20;}
 
 #zone-branding-wrapper {background-color: #000000; padding-top: 20px;}
 
-#zone-menu-wrapper {background-color: #000000; margin-top: 0; padding-top: 20px;}
+#zone-menu-wrapper {background-color: #000000; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset; margin-top: 0; padding-top: 20px;}
 
 /* region footer */
 
@@ -90,11 +94,13 @@ img.social {margin-top: 12px; max-width: 26px;}
 
 img.social-first {position: relative; left: -2px;}
 
+ul.menu {font-family: 'Open Sans Condensed',Helvetica,sans-serif;}
+
 ul.menu li {display: inline; margin: 0; padding: 0; margin: 0 10px;}
 
 ul.menu li.first {margin-left: 0;}
 
-ul.menu li a:link, ul.menu li a:visited {color: #555555; font-size: 100%;}
+ul.menu li a:link, ul.menu li a:visited {color: #333333; font-size: 100%;}
 
 ul.menu li a:hover {text-decoration: underline;}
 
